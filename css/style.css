@@ -81,6 +81,16 @@ body a:hover{
     margin-top: 0.5em;
     letter-spacing: 2px;
 }
+ul.introduction {
+    margin-top: 1em;
+    border-top: 1px solid #AFAFAF;
+    padding-top: 0.5em;
+    display: block;
+    font-size: 1.2em;
+    color: #fff;
+	font-weight: 100;
+}
+
 ul.address {
     margin-top: 2em;
     border-top: 1px solid #AFAFAF;
@@ -367,6 +377,29 @@ h2.resp-accordion {
 }
 .resp-content-active, .resp-accordion-active {
    display: block;
+}
+
+p.introduction {
+    margin-top: 1em;
+    padding-top: 0.5em;
+    display: block;
+    font-size: 1.2em;
+    color: #000000;
+	font-weight: 500;
+}
+
+.illustration {
+    text-align: center;
+    padding: 2em;
+}
+.illustration img{
+    width: 80%;
+}
+.illustration p{
+    font-size: 1.2em;
+    color: #000000;
+	font-weight: 500;
+	padding: 1em;
 }
 /*--//SAP--*/
 /*--img-hover--*/
@@ -698,7 +731,7 @@ h3.title {
 }
 .header-left {
     float: left;
-    width: 50%;	
+    width: 40%;
 }
 .header-right {
     padding-left: 2em;
