@@ -379,9 +379,9 @@ h2.resp-accordion {
    display: block;
 }
 
-p.introduction {
+.introduction p {
     margin-top: 1em;
-    padding-top: 0.5em;
+    padding: 1em;
     display: block;
     font-size: 1.2em;
     color: #000000;
